@@ -2,8 +2,6 @@
 
 A BepInEx plugin for **Castlevania: Belmont's Curse** that makes Rose run at 1.5× her normal ground speed. The run animation and its footstep markers stay on the normal run clip and play at the same faster rate, so the steps keep looping. Jumps and air control stay at the base game speed, which keeps platforming distances the same.
 
-This is an unofficial fan plugin. It does not contain game files. `GameAssembly.dll` is not modified and is not part of this repo.
-
 ## Install
 
 You need the Windows game and [BepInEx 6 bleeding edge, build be.788, Unity IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be). BepInEx 5 will not load this plugin. If you already use the Belmont's Curse ultrawide plugin, that loader is the right one.
@@ -51,7 +49,7 @@ The same command without the script:
 dotnet build RoseSpeed.csproj -c Release -p:GameDir="C:\Path\To\Castlevania Belmont's Curse"
 ```
 
-The project only references the BepInEx and interop assemblies on your machine. Do not commit those DLLs, `GameAssembly.dll`, or anything else from the game folder.
+The project only references the BepInEx and interop assemblies on your machine. Do not commit those DLLs or anything else from the game folder.
 
 ## What it changes
 
