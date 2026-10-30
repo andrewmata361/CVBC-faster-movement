@@ -1,4 +1,4 @@
-# CVBC faster movement
+# Belmont's Curse faster movement
 
 A BepInEx plugin for **Castlevania: Belmont's Curse** that makes Rose run at 1.5× her normal ground speed. The run animation and its footstep markers stay on the normal run clip and play at the same faster rate, so the steps keep looping. Jumps and air control stay at the base game speed, which keeps platforming distances the same.
 
